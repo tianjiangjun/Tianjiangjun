@@ -1,0 +1,26 @@
+<!--pages/index/index.wxml-->
+
+<input type="text" placeholder="请输入用户名" bindinput="username"/>
+
+<input type="text" placeholder="请输入密码" bindinput="password"/>
+
+<button type="primary" bindtap="add">点击添加</button>
+
+
+<view wx:for="{{arr}}"  wx:key="index">
+      用户名 ：{{item.username}}
+      密码 ：{{item.password}}
+      <button size="mini" data-index="{{index}}" bindtap="del">删除</button>
+      {{index}}
+</view>
+<view>
+<button type="warn" bindtap="qie">按钮</button>
+<button type="primary" hidden="{{!flag}}">嗨害嗨</button>
+</view>
+
+
+<view>
+ <button type="warn" size="mini" bindtap="jia" >++</button>
+  <view hidden="{{flag1?num>5:num<1}}"> {{num+1}}</view>
+ <button type="warn" size="mini" bindtap="jian">--</button>
+</view>         

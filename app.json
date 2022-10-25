@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/home2/home2",
+    "pages/home3/home3"
+  ],
+  "tabBar": {
+    "list":[
+      {
+        "pagePath":  "pages/index/index",
+        "text": "首页",
+        "iconPath": "./stice/icon/home.png",
+        "selectedIconPath": "./stice/icon/home-a.png"
+      },
+      {
+        "pagePath":  "pages/home3/home3",
+        "text": "分类",
+        "iconPath": "./stice/icon/cate.png",
+        "selectedIconPath": "./stice/icon/cate-a.png"
+      },
+      {
+        "pagePath":  "pages/home/home",
+        "text": "购物车",
+        "iconPath": "./stice/icon/cart.png",
+        "selectedIconPath": "./stice/icon/cart-a.png"
+      },
+      {
+        "pagePath":  "pages/home2/home2",
+        "text": "我的",
+        "iconPath": "./stice/icon/user.png",
+        "selectedIconPath": "./stice/icon/user-a.png"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#272727",
+    "navigationBarTitleText": "day01作业",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#22a6d1",
+    "pageOrientation":"auto"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
